@@ -4,15 +4,15 @@ defaults: &defaults
 
 development:
   <<: *defaults
-  database: sample_app_development
+  database: fennec_development
 
 test:
   <<: *defaults
-  database: sample_app_test
+  database: fennec_test
 
 # set these environment variables on your prod server
 production:
   <<: *defaults
-  database: sample_app
+  database: fennec
   username: <%= ENV['MONGO_USERNAME'] %>
   password: <%= ENV['MONGO_PASSWORD'] %>
