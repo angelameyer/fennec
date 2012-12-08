@@ -1,7 +1,10 @@
 Fennec::Application.routes.draw do
-  get "static_pages/home"
 
-  get "static_pages/help"
+  get "section_pages/home"
+
+  get "section_pages/topic1"
+
+  get "section_pages/topic2"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
