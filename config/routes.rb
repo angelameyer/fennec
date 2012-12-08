@@ -1,4 +1,5 @@
 Fennec::Application.routes.draw do
+
   get "section_pages/home"
 
   get "section_pages/topic1"
