@@ -1,10 +1,10 @@
 Fennec::Application.routes.draw do
 
-  get "section_pages/home"
+  get 'section_pages/home'    => 'section_pages#home'
 
-  get "section_pages/topic1"
+  get 'section_pages/topic1'  => 'section_pages#topic1'
 
-  get "section_pages/topic2"
+  get 'section_pages/topic2'  => 'section_pages#topic2'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
