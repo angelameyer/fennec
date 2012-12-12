@@ -16,3 +16,6 @@ production:
   database: fennec
   username: <%= ENV['MONGO_USERNAME'] %>
   password: <%= ENV['MONGO_PASSWORD'] %>
+
+
+#
