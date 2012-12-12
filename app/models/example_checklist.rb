@@ -1,4 +1,4 @@
-class Checklist
+class Checklist < ActiveRecord::Base
   attr_accessor :email, :browser
 
   def initialize(attributes = {})
