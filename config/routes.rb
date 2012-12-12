@@ -6,10 +6,7 @@ Fennec::Application.routes.draw do
 
   get 'topic2'  => 'section_pages#topic2'
 
-
-  get "section_pages/foo"
-
-  get "section_pages/asdf" => 'section_pages#bar' 
+  root :to      => 'section_pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
