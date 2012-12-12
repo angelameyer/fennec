@@ -1,10 +1,11 @@
 Fennec::Application.routes.draw do
 
-  get "section_pages/home"
+  get 'home'    => 'section_pages#home'
 
-  get "section_pages/topic1"
+  get 'topic1'  => 'section_pages#topic1'
 
-  get "section_pages/topic2"
+  get 'topic2'  => 'section_pages#topic2'
+
 
   get "section_pages/foo"
 
