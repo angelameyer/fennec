@@ -6,6 +6,10 @@ Fennec::Application.routes.draw do
 
   get "section_pages/topic2"
 
+  get "section_pages/foo"
+
+  get "section_pages/asdf" => 'section_pages#bar' 
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
