@@ -1,22 +1,21 @@
 <% provide(:title, "Homepage") %>
 <h1>Homepage</h1>
 <p> </br>
-        <form>
-	  <label>Email Address</label>
-	    <input type="email">
-          <label>Browser</label>
-            <select name="browser type">
-              <option value="chrome">Chrome
-              <option value="firefox">Firefox
-              <option value="ie">Internet Explorer
-              <option value="safari">Safari
-            </select>
-	  <label>OS</label>
-	    <select name="os">
-              <option value="mac">Mac
-              <option value="pc">PC
-            </select>
+  <form action="mailto:chelsey@email.com" method="post">
+	  Email Address: <input type="email" name= "email" required="required" />
+    Browser:
+      <select name= "browser" required="required" />
+        <option value="chrome">Chrome
+        <option value="firefox">Firefox
+        <option value="ie">Internet Explorer
+        <option value="safari">Safari
+      </select>
+	  OS:
+	    <select name="os" required="required" />
+        <option value="mac">Mac
+        <option value="pc">PC
+      </select>
 	  <input type="submit" value="Start Checklist">
 	</form>
-        Insert table of contents hereee.
+        Insert table of contents hereee
 </p>
