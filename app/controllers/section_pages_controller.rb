@@ -3,7 +3,7 @@ class SectionPagesController < ApplicationController
   def home
   end
 
-  def topic1
+  def toc
   end
 
   def topic2
