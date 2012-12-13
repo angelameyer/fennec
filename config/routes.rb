@@ -2,7 +2,7 @@ Fennec::Application.routes.draw do
 
   get 'home'    => 'section_pages#home'
 
-  get 'toc'  => 'section_pages#toc'
+  get 'toc'     => 'section_pages#toc'
 
   get 'topic2'  => 'section_pages#topic2'
 
