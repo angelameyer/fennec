@@ -9,4 +9,7 @@ class SectionPagesController < ApplicationController
   def topic2
   end
 
+  def finish
+  end
+  
 end
