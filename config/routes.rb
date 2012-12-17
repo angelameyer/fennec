@@ -1,5 +1,7 @@
 Fennec::Application.routes.draw do
 
+  get "checklist/new"
+
   get 'home'    => 'section_pages#home'
 
   get 'topic1'  => 'section_pages#topic1'
