@@ -1,12 +1,12 @@
 Fennec::Application.routes.draw do
 
-  get 'home'    => 'section_pages#home'
+  match 'home'    => 'section_pages#home'
 
-  get 'toc'     => 'section_pages#toc'
+  match 'toc'     => 'section_pages#toc'
 
-  get 'topic2'  => 'section_pages#topic2'
+  match 'topic2'  => 'section_pages#topic2'
 
-  get 'finish'  => 'section_pages#finish'
+  match 'finish'  => 'section_pages#finish'
 
   root :to      => 'section_pages#home'
 
