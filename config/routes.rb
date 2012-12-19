@@ -2,13 +2,15 @@ Fennec::Application.routes.draw do
 
   get "checklist/new"
 
-  get 'home'    => 'section_pages#home'
+  match 'home'    => 'section_pages#home'
 
-  get 'topic1'  => 'section_pages#topic1'
+  match 'toc'     => 'section_pages#toc'
 
-  get 'topic2'  => 'section_pages#topic2'
+  match 'topic2'  => 'section_pages#topic2'
 
-  root :to      => 'section_pages#home'
+  match 'finish'  => 'section_pages#finish'
+
+  root :to        => 'section_pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
