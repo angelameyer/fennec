@@ -3,10 +3,13 @@ class SectionPagesController < ApplicationController
   def home
   end
 
-  def topic1
+  def toc
+  end
+  
+  def topic2
   end
 
-  def topic2
+  def finish
   end
 
 end
