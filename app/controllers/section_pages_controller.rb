@@ -6,7 +6,7 @@ class SectionPagesController < ApplicationController
   def toc
   end
   
-  def topic2
+  def section
   end
 
   def finish
