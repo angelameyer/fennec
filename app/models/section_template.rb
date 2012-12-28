@@ -3,4 +3,6 @@ class Section
 
   key :name, String
   many :aeos
+
+  belongs_to :checklist_template
 end

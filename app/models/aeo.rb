@@ -7,4 +7,5 @@ class Aeo
   key :failure, Boolean
   key :blocker, Boolean
   key :ticket_number, String
+  belongs_to :section
 end

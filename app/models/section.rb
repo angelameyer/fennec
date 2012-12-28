@@ -1,7 +1,7 @@
 class Section
-  include MongoMapper::Document
+  include MongoMapper::EmbeddedDocument
 
   key :name, String
   belongs_to :checklist
-  
+
 end
