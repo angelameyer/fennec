@@ -6,7 +6,7 @@ Fennec::Application.routes.draw do
 
   match 'toc'     => 'section_pages#toc'
 
-  match 'topic2'  => 'section_pages#topic2'
+  match 'section'  => 'section_pages#section'
 
   match 'finish'  => 'section_pages#finish'
 

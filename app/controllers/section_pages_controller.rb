@@ -6,6 +6,9 @@ cclass SectionPagesController < ApplicationController
   def toc
   end
   
+  def section
+  end
+
   def checklist
   	id = params['checklist_id']
   	@checklist = Checklist.find_by_id(id)
@@ -26,9 +29,6 @@ cclass SectionPagesController < ApplicationController
   	aeo.save()
 
   	redirect "/section"
-  end
-  
-  def topic2
   end
 
   def finish
