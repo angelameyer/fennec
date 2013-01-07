@@ -1,12 +1,12 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
     <div class="container">
-      <%= link_to "Fennec", '#', id: "logo" %>
+      <%= link_to "Fennec", root_path, id: "logo" %>
       <nav>
         <ul class="nav pull-right">
-          <li><%= link_to "Start Checklist",    '#' %></li>
-          <li><%= link_to "Table of Contents", '#' %></li>
-          <li><%= link_to "End Checklist!", '#' %></li>
+          <li><%= link_to "Start Checklist",    root_path %></li>
+          <li><%= link_to "Table of Contents", toc_path %></li>
+          <li><%= link_to "End Checklist!", finish_path %></li>
         </ul>
       </nav>
     </div>
