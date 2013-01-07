@@ -1,4 +1,4 @@
-cclass SectionPagesController < ApplicationController
+class SectionPagesController < ApplicationController
   
   def home
   end
