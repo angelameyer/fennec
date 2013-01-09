@@ -1,4 +1,4 @@
-class Section
+class Section_template
   include MongoMapper::EmbeddedDocument
 
   key :name, String
