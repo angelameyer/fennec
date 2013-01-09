@@ -1,7 +1,7 @@
-class Checklist
+class Checklist_template
   include MongoMapper::Document
   
   key :name, String
-  many :sections
+  many :section_templates
 
 end
